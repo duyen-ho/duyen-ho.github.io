@@ -25,7 +25,13 @@ html, body {
     box-shadow: 0 0 30px #000000; /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
 }
 
-.intro {
+.csdepartment {
+    text-align: center;
+    margin-top: 50px;
+    font-weight: bold;
+}
+
+.bio {
     display: inline-block;
     vertical-align: top;
 }
@@ -48,6 +54,16 @@ html, body {
     height: 190px;
     border-radius: 50%;
     background-size: cover;
+    margin: 20px auto;
+    border: 8px solid #ffe5ea;
+}
+
+.bioavatar {
+    background-image: url("Images/avatar2.jpg");
+    width: 195px;
+    height: 190px;
+    border-radius: 50%;
+    background-size: cover;
     margin: 50px 100px;
     border: 8px solid #ffe5ea;
 }
@@ -55,8 +71,9 @@ html, body {
 table {
     margin-right: auto;
     margin-left: auto;
-    margin-top: -40px;
+    margin-top: 30px;
     border-collapse: collapse;
+    width: 70%;
 }
 tr {
     text-align: center;

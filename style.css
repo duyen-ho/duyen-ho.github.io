@@ -1,0 +1,122 @@
+html {
+    min-height: 100%;
+    background-image: url("Images/flowers2.jpg");
+    background-size: cover;
+}
+
+html, body {
+    height: 100%;
+
+    font-family: sans-serif;
+}
+
+.container {
+    height: 800px;
+    width: 1200px;
+    background: white;
+    margin: 90px auto;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    -webkit-box-shadow: 0 0 30px #000000; /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+    -moz-box-shadow: 0 0 30px #000000; /* Firefox 3.5 - 3.6 */
+    box-shadow: 0 0 30px #000000; /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+}
+
+.intro {
+    display: inline-block;
+    vertical-align: top;
+}
+
+#name {
+    font-weight: lighter;
+    font-size: 3em;
+}
+
+.description {
+    width: 700px;
+    height: 220px;
+    border-radius: 0;
+    margin: 80px -30px;
+}
+
+.avatar {
+    background-image: url("Images/avatar2.jpg");
+    width: 195px;
+    height: 190px;
+    border-radius: 50%;
+    background-size: cover;
+    margin: 50px 100px;
+    border: 8px solid #ffe5ea;
+}
+
+table {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: -40px;
+    border-collapse: collapse;
+}
+tr {
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #fff8f9;
+}
+
+tr:nth-child(odd) {
+    background-color: #ffe5ea;
+}
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+.intro #links a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.interest {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+.interestbody {
+    text-align: left;
+    vertical-align: top;
+    display: inline-block;
+    height: 240px;
+    width: 280px;
+    border-radius: 5%;
+    border: 1px solid #d8d6d6;
+    margin: 30px 30px;
+}
+
+hr {
+    width: 90%;
+}
+
+span {
+    color: #cc0000;
+    font-weight: bold;
+}
+
+.quote {
+    text-align: center;
+}
+
+#quote {
+    font-style: italic;
+}
